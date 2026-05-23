@@ -142,3 +142,6 @@ This quiz application can be used in various real-world scenarios:
 * Add sound effects and animations
 * Make the UI fully responsive for mobile devices
 
+#OUTPUT 
+
+<img width="718" height="831" alt="Image" src="https://github.com/user-attachments/assets/bf97a815-b06d-4065-a295-cf5e78aa1a9e" />
