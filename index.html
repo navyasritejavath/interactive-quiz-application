@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz49 Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    
+    <!-- UI View: Welcome and Initialization Area -->
+    <div id="start-box">
+      <h1>Quiz49</h1>
+      <p>Test your general knowledge!</p>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- UI View: Interactive Question and Answer Workspace -->
+    <div id="quiz-box" class="hide">
+      <div id="progress">Question 1 of X</div>
+      <div class="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+      <h2 id="question-text">Question text</h2>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <button id="skip-btn" class="action-btn">Skip Question</button>
+      <button id="next-btn" class="action-btn hide">Next Question</button>
+    </div>
+
+    <!-- UI View: Final Performance Metrics Summary -->
+    <div id="result-box" class="hide">
+      <h2>Quiz Completed!</h2>
+      <p id="score-text">You scored 0 out of 0</p>
+      <button id="restart-btn">Try Again</button>
+    </div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
